@@ -1,0 +1,17 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "machine-diagnostics"
+version = "1.0.0"
+description = "A distributable CLI for inspecting a machine and producing structured diagnostics."
+readme = "README.md"
+requires-python = ">=3.9"
+authors = [{name = "Python Software Engineering Internship"}]
+
+[project.scripts]
+machine-diagnostics = "machine_diagnostics.cli:main"
+
+[tool.setuptools.packages.find]
+include = ["machine_diagnostics*"]

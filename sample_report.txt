@@ -1,0 +1,30 @@
+MACHINE DIAGNOSTICS REPORT
+==========================
+Timestamp (UTC): 2026-08-26T00:00:00+00:00
+
+SYSTEM
+  OS: ExampleOS 1.0
+  Machine: x86_64
+
+PYTHON
+  Version: 3.12.0
+  Executable: /usr/bin/python3
+
+DISK
+  Path: /example
+  Total: 100,000,000,000 bytes
+  Used: 40,000,000,000 bytes
+  Free: 60,000,000,000 bytes (60.0%)
+
+ENVIRONMENT
+  Variables inspected: 3
+  Values: <redacted>
+
+DEVELOPER TOOLS
+  git: available — /usr/bin/git
+  docker: missing
+
+SUMMARY
+  Checked: 2
+  Available: 1
+  Missing: 1

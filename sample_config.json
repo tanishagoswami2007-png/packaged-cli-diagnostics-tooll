@@ -1,0 +1,10 @@
+{
+  "developer_tools": [
+    "git",
+    "python",
+    "pip",
+    "node",
+    "npm",
+    "docker"
+  ]
+}

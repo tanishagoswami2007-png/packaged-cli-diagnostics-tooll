@@ -1,0 +1,37 @@
+{
+  "timestamp_utc": "2026-08-26T00:00:00+00:00",
+  "platform": {
+    "system": "ExampleOS",
+    "release": "1.0",
+    "machine": "x86_64",
+    "processor": "example"
+  },
+  "python": {
+    "version": "3.12.0",
+    "executable": "/usr/bin/python3"
+  },
+  "disk": {
+    "path": "/example",
+    "total_bytes": 100000000000,
+    "used_bytes": 40000000000,
+    "free_bytes": 60000000000,
+    "free_percent": 60.0
+  },
+  "environment": {
+    "count": 3,
+    "variables": [
+      {"name": "PATH", "value": "<redacted>"},
+      {"name": "HOME", "value": "<redacted>"},
+      {"name": "PYTHONPATH", "value": "<redacted>"}
+    ]
+  },
+  "developer_tools": [
+    {"name": "git", "available": true, "path": "/usr/bin/git"},
+    {"name": "docker", "available": false, "path": null}
+  ],
+  "summary": {
+    "tools_checked": 2,
+    "tools_available": 1,
+    "tools_missing": 1
+  }
+}
